@@ -14,8 +14,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "VQtv7frm7eLiEDnd",
-          "name": "OpenAi account 7"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 1
@@ -36,8 +36,8 @@
       },
       "credentials": {
         "postgres": {
-          "id": "ON7WH990zsLlqqlT",
-          "name": "Creators site staging"
+          "id": "",
+          "name": "Postgres Account"
         }
       },
       "typeVersion": 1.2

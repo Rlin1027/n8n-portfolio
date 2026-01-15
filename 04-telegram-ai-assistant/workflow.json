@@ -17,8 +17,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "rveqdSfp7pCRON1T",
-          "name": "Ted's Tech Talks OpenAi"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 1
@@ -55,8 +55,8 @@
       },
       "credentials": {
         "telegramApi": {
-          "id": "9dexJXnlVPA6wt8K",
-          "name": "Chat & Sound"
+          "id": "",
+          "name": "Telegram Account"
         }
       },
       "typeVersion": 1.1
@@ -206,8 +206,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "rveqdSfp7pCRON1T",
-          "name": "Ted's Tech Talks OpenAi"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 1.5

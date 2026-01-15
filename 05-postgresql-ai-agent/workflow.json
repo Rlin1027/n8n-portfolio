@@ -108,8 +108,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "zJhr5piyEwVnWtaI",
-          "name": "OpenAi club"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 1
@@ -131,8 +131,8 @@
       },
       "credentials": {
         "postgres": {
-          "id": "AO9cER6p8uX7V07T",
-          "name": "Postgres 5minai"
+          "id": "",
+          "name": "Postgres Account"
         }
       },
       "typeVersion": 2.5
@@ -154,8 +154,8 @@
       },
       "credentials": {
         "postgres": {
-          "id": "AO9cER6p8uX7V07T",
-          "name": "Postgres 5minai"
+          "id": "",
+          "name": "Postgres Account"
         }
       },
       "typeVersion": 2.5

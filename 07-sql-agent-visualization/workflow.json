@@ -16,8 +16,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "WqzqjezKh8VtxdqA",
-          "name": "OpenAi account - Baptiste"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 1
@@ -82,8 +82,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "WqzqjezKh8VtxdqA",
-          "name": "OpenAi account - Baptiste"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 4.2
@@ -188,8 +188,8 @@
       },
       "credentials": {
         "postgres": {
-          "id": "pdoWsjndlIgtlZYV",
-          "name": "Coffee Sales Postgres"
+          "id": "",
+          "name": "Postgres Account"
         }
       },
       "typeVersion": 1.7
@@ -270,8 +270,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "WqzqjezKh8VtxdqA",
-          "name": "OpenAi account - Baptiste"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 1

@@ -70,8 +70,8 @@
       },
       "credentials": {
         "nocoDbApiToken": {
-          "id": "3fz98VcO6Z5iU2YT",
-          "name": "NocoDB Token account"
+          "id": "",
+          "name": "NocoDB Account"
         }
       },
       "typeVersion": 3
@@ -115,8 +115,8 @@
       },
       "credentials": {
         "nocoDbApiToken": {
-          "id": "3fz98VcO6Z5iU2YT",
-          "name": "NocoDB Token account"
+          "id": "",
+          "name": "NocoDB Account"
         }
       },
       "typeVersion": 4.2
@@ -168,8 +168,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "DBb9a7OM4pzdAuDR",
-          "name": "Derek Cheung"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 1
