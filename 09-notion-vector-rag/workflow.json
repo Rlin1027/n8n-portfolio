@@ -13,8 +13,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "X7Jf0zECd3IkQdSw",
-          "name": "OpenAi (octionicsolutions)"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 1
@@ -83,8 +83,8 @@
       },
       "credentials": {
         "openAiApi": {
-          "id": "X7Jf0zECd3IkQdSw",
-          "name": "OpenAi (octionicsolutions)"
+          "id": "",
+          "name": "OpenAI Account"
         }
       },
       "typeVersion": 1
@@ -177,8 +177,8 @@
       },
       "credentials": {
         "supabaseApi": {
-          "id": "DjIb4HMTYXhTU8Uc",
-          "name": "Supabase (VectorStore)"
+          "id": "",
+          "name": "Supabase Account"
         }
       },
       "typeVersion": 1,
@@ -205,8 +205,8 @@
       },
       "credentials": {
         "notionApi": {
-          "id": "ObmaBA0dJss3JJPv",
-          "name": "Notion (octionicsolutions / Test)"
+          "id": "",
+          "name": "Notion Account"
         }
       },
       "executeOnce": true,
