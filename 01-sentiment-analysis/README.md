@@ -4,7 +4,7 @@ Automatically analyze customer feedback sentiment using OpenAI and store results
 
 ## Demo
 
-![Demo](./demo.gif)
+![Demo](./demo.png)
 
 <!-- TODO: Record demo and add GIF -->
 
