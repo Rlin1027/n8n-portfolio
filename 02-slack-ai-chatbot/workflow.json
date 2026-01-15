@@ -102,11 +102,47 @@
             "typeVersion": 1
         },
         {
+            "id": "e8a9b83c-1d5f-4a8e-9c2b-5f3e9b1d7b8a",
+            "name": "Is URL Verification",
+            "type": "n8n-nodes-base.switch",
+            "position": [
+                -240,
+                475
+            ],
+            "parameters": {
+                "dataType": "string",
+                "value1": "={{ $json.body.type }}",
+                "rules": {
+                    "rules": [
+                        {
+                            "value2": "url_verification"
+                        }
+                    ]
+                }
+            },
+            "typeVersion": 1
+        },
+        {
+            "id": "c1f2d3e4-5b6a-7c8d-9e0f-1a2b3c4d5e6f",
+            "name": "Respond with Challenge",
+            "type": "n8n-nodes-base.respondToWebhook",
+            "position": [
+                -40,
+                260
+            ],
+            "parameters": {
+                "respondWith": "json",
+                "responseBody": "={{ { challenge: $json.body.challenge } }}",
+                "options": {}
+            },
+            "typeVersion": 1
+        },
+        {
             "id": "420fe56f-9ef8-4c57-ac06-d8d88f37b49a",
             "name": "Is user message",
             "type": "n8n-nodes-base.if",
             "position": [
-                -160,
+                -40,
                 475
             ],
             "parameters": {
@@ -127,12 +163,12 @@
             "type": "n8n-nodes-base.stickyNote",
             "position": [
                 -240,
-                406.5
+                200
             ],
             "parameters": {
-                "width": 542,
-                "height": 264,
-                "content": "### Filter out bot messages\nSlack POSTs to Webhook on every message, including bot messages. We filter them out here."
+                "width": 300,
+                "height": 100,
+                "content": "### Handle Slack URL Verification\nRequired for Event Subscription setup."
             },
             "typeVersion": 1
         },
@@ -257,6 +293,24 @@
         },
         "Webhook": {
             "main": [
+                [
+                    {
+                        "node": "Is URL Verification",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Is URL Verification": {
+            "main": [
+                [
+                    {
+                        "node": "Respond with Challenge",
+                        "type": "main",
+                        "index": 0
+                    }
+                ],
                 [
                     {
                         "node": "Is user message",
