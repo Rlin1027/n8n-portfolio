@@ -23,6 +23,12 @@
         "model": "text-embedding-3-small",
         "options": {}
       },
+      "credentials": {
+        "openAiApi": {
+          "id": "",
+          "name": "OpenAI Account"
+        }
+      },
       "typeVersion": 1
     },
     {
@@ -95,6 +101,12 @@
         "model": "text-embedding-3-small",
         "options": {}
       },
+      "credentials": {
+        "openAiApi": {
+          "id": "",
+          "name": "OpenAI Account"
+        }
+      },
       "typeVersion": 1
     },
     {
@@ -109,6 +121,12 @@
         "model": "gpt-4o-mini",
         "options": {}
       },
+      "credentials": {
+        "openAiApi": {
+          "id": "",
+          "name": "OpenAI Account"
+        }
+      },
       "typeVersion": 1
     },
     {
@@ -121,6 +139,12 @@
       ],
       "parameters": {
         "tableName": "website_chat_histories"
+      },
+      "credentials": {
+        "postgres": {
+          "id": "",
+          "name": "Postgres Account"
+        }
       },
       "typeVersion": 1.1
     },
@@ -183,6 +207,12 @@
       "parameters": {
         "model": "text-embedding-3-small",
         "options": {}
+      },
+      "credentials": {
+        "openAiApi": {
+          "id": "",
+          "name": "OpenAI Account"
+        }
       },
       "typeVersion": 1
     },
@@ -270,6 +300,12 @@
         "query": "select max(created_at) as last_workflow_execution from n8n_website_embedding_histories",
         "options": {},
         "operation": "executeQuery"
+      },
+      "credentials": {
+        "postgres": {
+          "id": "",
+          "name": "Postgres Account"
+        }
       },
       "typeVersion": 2.5
     },
@@ -382,6 +418,12 @@
         "operation": "getAll",
         "returnAll": true
       },
+      "credentials": {
+        "wordpressApi": {
+          "id": "",
+          "name": "Wordpress Account"
+        }
+      },
       "typeVersion": 1
     },
     {
@@ -397,6 +439,12 @@
         "resource": "page",
         "operation": "getAll",
         "returnAll": true
+      },
+      "credentials": {
+        "wordpressApi": {
+          "id": "",
+          "name": "Wordpress Account"
+        }
       },
       "typeVersion": 1
     },
@@ -563,6 +611,12 @@
           ]
         }
       },
+      "credentials": {
+        "supabaseApi": {
+          "id": "",
+          "name": "Supabase Account"
+        }
+      },
       "typeVersion": 1
     },
     {
@@ -637,6 +691,12 @@
         },
         "nodeCredentialType": "wordpressApi"
       },
+      "credentials": {
+        "wordpressApi": {
+          "id": "",
+          "name": "Wordpress Account"
+        }
+      },
       "typeVersion": 4.2
     },
     {
@@ -661,6 +721,12 @@
           ]
         },
         "nodeCredentialType": "wordpressApi"
+      },
+      "credentials": {
+        "wordpressApi": {
+          "id": "",
+          "name": "Wordpress Account"
+        }
       },
       "typeVersion": 4.2
     },

@@ -89,6 +89,12 @@
           "baseURL": ""
         }
       },
+      "credentials": {
+        "openAiApi": {
+          "id": "",
+          "name": "OpenAI Account"
+        }
+      },
       "typeVersion": 1
     },
     {
