@@ -138,11 +138,26 @@
             "typeVersion": 1
         },
         {
+            "id": "respond-ok-ack",
+            "name": "Respond 200 OK",
+            "type": "n8n-nodes-base.respondToWebhook",
+            "position": [
+                -40,
+                475
+            ],
+            "parameters": {
+                "respondWith": "json",
+                "responseBody": "={{ { status: 'ok' } }}",
+                "options": {}
+            },
+            "typeVersion": 1
+        },
+        {
             "id": "420fe56f-9ef8-4c57-ac06-d8d88f37b49a",
             "name": "Is user message",
             "type": "n8n-nodes-base.if",
             "position": [
-                -40,
+                160,
                 475
             ],
             "parameters": {
@@ -311,6 +326,17 @@
                         "index": 0
                     }
                 ],
+                [
+                    {
+                        "node": "Respond 200 OK",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Respond 200 OK": {
+            "main": [
                 [
                     {
                         "node": "Is user message",
