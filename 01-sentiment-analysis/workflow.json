@@ -200,24 +200,34 @@
             "typeVersion": 2.1
         },
         {
-            "id": "235edf5b-7724-4712-8dc5-d8327a0620b8",
-            "name": "Classify feedback with OpenAI",
-            "type": "n8n-nodes-base.openAi",
+            "parameters": {
+                "modelId": {
+                    "__rl": true,
+                    "mode": "list",
+                    "value": ""
+                },
+                "responses": {
+                    "values": [
+                        {}
+                    ]
+                },
+                "builtInTools": {},
+                "options": {}
+            },
+            "type": "@n8n/n8n-nodes-langchain.openAi",
+            "typeVersion": 2.1,
             "position": [
                 1280,
                 1180
             ],
-            "parameters": {
-                "prompt": "=Classify the sentiment in the following customer feedback: {{ $json['Your feedback'] }}",
-                "options": {}
-            },
+            "id": "02cda3b0-8135-4a72-bcf0-66dabbc7497c",
+            "name": "Message a model",
             "credentials": {
                 "openAiApi": {
                     "id": "",
                     "name": "OpenAI Account"
                 }
-            },
-            "typeVersion": 1
+            }
         },
         {
             "id": "af4b22aa-0925-40b1-a9ac-298f9745a98e",
@@ -273,7 +283,7 @@
         }
     ],
     "connections": {
-        "Classify feedback with OpenAI": {
+        "Message a model": {
             "main": [
                 [
                     {
@@ -299,7 +309,7 @@
             "main": [
                 [
                     {
-                        "node": "Classify feedback with OpenAI",
+                        "node": "Message a model",
                         "type": "main",
                         "index": 0
                     },
