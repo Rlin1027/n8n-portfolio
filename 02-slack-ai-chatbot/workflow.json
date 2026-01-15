@@ -13,7 +13,8 @@
             "parameters": {
                 "path": "slack-ai-chatbot",
                 "options": {},
-                "httpMethod": "POST"
+                "httpMethod": "POST",
+                "responseMode": "responseNode"
             },
             "typeVersion": 1
         },
